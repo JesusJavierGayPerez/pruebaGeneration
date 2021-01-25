@@ -1,0 +1,53 @@
+//1. Crea un div
+
+div.createElement ('div')
+
+//2. Crea un svg
+
+document.CreateElementNS('http://www.w3.org/2000/svg', 'svg')
+document.CreateElementNS('http://www.w3.org/1999/xhtml, 'div')
+
+//3. Agrega una clase al div creado en el punto 1
+
+div.classList.add ('red')
+
+//4. Agrega un estilo que cambie la propiedad color al punto 1
+
+div.style.setProperty('color', 'blue')
+
+//5. Agrega un atributo id al punto 1
+
+div.setAttribute('id', 'Jota')
+
+//6. Crea un página en blanco y agrega al body el div con "hello world"
+
+text= document.createTextNode('Hello world')
+div.appendChild(text)
+document.body.appendChild(div)
+
+//7. Crea un nuevo div y agrégalo como hijo al punto 1 antes de "hello world" 
+
+child = document.createElement('div')
+div.insertBefore(child, text)
+
+8. Dime los nodos que tiene el primer div
+
+div.childNodes
+
+//9. Dime los elementos que tiene el primer div
+
+div.children
+
+//10. Busca todos los div de la página
+
+document.querySelectorAll('div')
+
+//11. Busca los div que contienen la clase agregada al punto 3
+
+document.querySelectorAll('.red')
+document.getElementByclassName('red')
+
+//12. Busca los div que tienen el id agregado en el punto 5 
+
+document.querySelectorAll('#Jota’)
+document.getElementById('Jota')
