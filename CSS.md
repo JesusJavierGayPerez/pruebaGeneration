@@ -6,6 +6,5 @@
 - Flexbox tiene algo más de compatibilidad con los navegadores que grid.
 
 Fuentes:
-
 https://webdesign.tutsplus.com/es/articles/flexbox-vs-css-grid-which-should-you-use--cms-30184
 https://www.internetingishard.com/html-and-css/flexbox/
